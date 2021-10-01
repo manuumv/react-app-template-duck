@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "common": ["./common/*"],
+      "core": ["./core/*"],
+      "assets": ["./assets/*"],
+      "model": ["./model/*"],
+      "containers": ["./containers"],
+      "store": ["./store/*"],
+      "styles": ["./styles/*"],
+    }
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules",
+  ],
+  "include": ["./src/**/*"]
+}

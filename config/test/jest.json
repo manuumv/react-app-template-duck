@@ -1,0 +1,18 @@
+{
+  "rootDir": "../../",
+  "preset": "ts-jest",
+  "testEnvironment": "jsdom",
+  "setupFilesAfterEnv": [
+    "<rootDir>/config/test/setupTest.ts"
+  ],
+  "restoreMocks": true,
+  "moduleNameMapper": {
+    "^common/(.*)$": "<rootDir>/src/common/$1",
+    "^core/(.*)$": "<rootDir>/src/core/$1",
+    "^assets/(.*)$": "<rootDir>/src/assets/$1",
+    "^model/(.*)$": "<rootDir>/src/model/$1",
+    "^containers/(.*)$": "<rootDir>/src/containers/$1",
+    "^store/(.*)$": "<rootDir>/src/store/$1",
+    "^styles/(.*)$": "<rootDir>/src/styles/$1"
+  }
+}
