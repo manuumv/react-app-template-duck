@@ -7,7 +7,7 @@ export const storybookAlias = {
   assets: path.join(basePath, 'src/assets'),
   model: path.join(basePath, 'src/model'),
   containers: path.join(basePath, 'src/containers'),
-  store: path.join(basePath, 'src/store'),
+  modules: path.join(basePath, 'src/modules'),
   styles: path.join(basePath, 'src/styles'),
   '@emotion/styled': path.join(basePath, 'node_modules/@emotion/styled'),
   '@emotion/react': path.join(basePath, 'node_modules/@emotion/react'),

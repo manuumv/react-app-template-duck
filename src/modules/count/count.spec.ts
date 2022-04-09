@@ -1,7 +1,7 @@
 import { AnyAction } from '@reduxjs/toolkit';
 import { CountState } from 'model/countState';
 import * as actions from './count.actions';
-import { ReduxState } from '../reduxState';
+import { ReduxState } from 'core/model/reduxState';
 import { countInitialState, countReducer } from './count.reducer';
 import { selectCountState } from './count.selectors';
 

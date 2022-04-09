@@ -35,7 +35,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new Dotenv({
-      path: 'prod.env',
+      path: '.env.prod',
     }),
     new CompressionPlugin({
       filename: '[path].gz[query]',

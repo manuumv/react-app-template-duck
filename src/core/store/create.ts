@@ -1,6 +1,6 @@
 import { AnyAction, configureStore, EnhancedStore } from '@reduxjs/toolkit';
 import { ThunkMiddleware } from 'redux-thunk';
-import { ReduxState } from './reduxState';
+import { ReduxState } from '../model/reduxState';
 import { rootReducer } from './rootReducer';
 
 export const createStore = (): EnhancedStore<ReduxState, AnyAction, [ThunkMiddleware<ReduxState, AnyAction, undefined>]> => {

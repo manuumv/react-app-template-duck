@@ -1,11 +1,10 @@
 import { createStore } from './create';
-import { countInitialState } from './count/count.reducer';
-import { ReduxState } from './reduxState';
+import { ReduxState } from '../model/reduxState';
 
 describe('create store', () => {
   it('should return the expected state and not add module hot', () => {
     const state: ReduxState = {
-      count: countInitialState,
+      count: { clicks: 0, value: 0 },
     };
     const expectedResult = state;
 

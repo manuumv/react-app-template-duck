@@ -3,8 +3,8 @@ import { addDecorator, addParameters } from '@storybook/react';
 import * as React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import { Provider } from 'react-redux';
-import i18n from '../src/core/translation';
-import { createStore } from '../src/store/create';
+import i18n from 'core/locale/locale.service';
+import { createStore } from 'core/store/create';
 import { defaultTheme } from '../src/styles/theme';
 import { parameters } from './config/parameters';
 

@@ -12,7 +12,7 @@
     "^assets/(.*)$": "<rootDir>/src/assets/$1",
     "^model/(.*)$": "<rootDir>/src/model/$1",
     "^containers/(.*)$": "<rootDir>/src/containers/$1",
-    "^store/(.*)$": "<rootDir>/src/store/$1",
+    "^modules/(.*)$": "<rootDir>/src/modules/$1",
     "^styles/(.*)$": "<rootDir>/src/styles/$1"
   }
 }

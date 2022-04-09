@@ -21,7 +21,7 @@
       "assets": ["./assets/*"],
       "model": ["./model/*"],
       "containers": ["./containers"],
-      "store": ["./store/*"],
+      "modules": ["./modules/*"],
       "styles": ["./styles/*"],
     }
   },
@@ -29,5 +29,5 @@
   "exclude": [
     "node_modules",
   ],
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./.storybook/**/*", "./typings/**/*"],
 }

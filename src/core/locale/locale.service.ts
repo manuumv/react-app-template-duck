@@ -3,7 +3,7 @@ import LanguageDetector, { DetectorOptions } from 'i18next-browser-languagedetec
 import { initReactI18next } from 'react-i18next';
 import en from 'assets/locales/en.json';
 import es from 'assets/locales/es.json';
-import { LANGUAGES } from './model';
+import { LANGUAGES } from '../model/translation';
 
 const detectorOpts: DetectorOptions = {
   order: ['localStorage', 'navigator'],

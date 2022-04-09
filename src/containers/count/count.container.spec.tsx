@@ -2,7 +2,7 @@ import { ThemeProvider } from '@emotion/react';
 import { render, fireEvent } from '@testing-library/react';
 import * as React from 'react';
 import { Provider } from 'react-redux';
-import { createStore } from 'store/create';
+import { createStore } from 'core/store/create';
 import { CountContainer } from './count.container';
 import { defaultTheme } from 'styles/theme';
 
